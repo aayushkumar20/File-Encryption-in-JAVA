@@ -1,8 +1,3 @@
-// WAP to generate a random key and IV for AES algorithm
-// 32 bytes key and 16 bytes IV
-// Without using any library
-
-
 import java.util.*;
 import java.io.*;
 
@@ -14,7 +9,7 @@ class generate
             String key = "";
             String IV = "";
             Random r = new Random();
-            for(int i = 0; i < 32; i++)
+            for(int i = 0; i < 32; i++) 
             {
                 key += (char)(r.nextInt(26) + 97);
             }
