@@ -53,13 +53,15 @@
 
 1. Initial Directory View 
    
-   > Here we're encrypting ```none.mp4``` file.
+   > Here we're encrypting ```nope.mp4``` file.
    
-   ![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-04-27-image.png)
+   ![Screenshot_20230219_220408](https://user-images.githubusercontent.com/37871733/219963610-6aa186cd-3c30-4b03-ba42-ee1eb4623312.png)
+
 
 2. Listing all the contents of directory in terminal.
    
-   ![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-06-15-image.png)
+   ![Screenshot_20230219_220613](https://user-images.githubusercontent.com/37871733/219963630-0f147983-324d-4a23-bfb7-1792dacf43a6.png)
+
 
 3. Generating random Keys and Initialization Vector.
    
@@ -67,9 +69,11 @@
    > 
    > Command  ```java generate.java```  2<sup>nd</sup> step.
    
-   ![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-10-21-image.png)
+   ![Screenshot_20230219_220954](https://user-images.githubusercontent.com/37871733/219963714-711de8b6-8c12-423b-8d4e-14c77f789b4b.png)
    
-   ![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-13-50-image.png)
+   ![Screenshot_20230219_221347](https://user-images.githubusercontent.com/37871733/219963726-9828f933-cbf5-422a-8fb7-067e697d1935.png)
+
+
 
 4. Now we'll copy the Key and Initialization Vector
 
@@ -79,37 +83,39 @@
    > 
    > Command ```java secure.java``` 2<sup>nd</sup> step.
    
-   ![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-17-36-image.png)
-   
-   ![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-18-03-image.png)
+   ![Screenshot_20230219_221733](https://user-images.githubusercontent.com/37871733/219963740-880a5b3d-a444-48f5-8c28-7c0320e1fdb6.png)
+
+   ![Screenshot_20230219_221800](https://user-images.githubusercontent.com/37871733/219963749-00ec1cec-58d4-455c-90d7-e7148627e243.png)
+
 
 6. Now we'll enter the Key and Initialization Vector.
    
    > 1. Before Encryption.
    >    
-   >    ![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-20-15-image.png)
+   >    ![Screenshot_20230219_221912](https://user-images.githubusercontent.com/37871733/219963766-772ec517-3b35-4a88-b952-47fb3624b17e.png)
 
-![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-21-52-image.png)
+  ![Screenshot_20230219_222138](https://user-images.githubusercontent.com/37871733/219963822-c07dad50-5407-44a1-a43d-bdcc87ac3a59.png)
 
-As shown above the file is being encrypted.
+  As shown above the file is being encrypted.
 
-> 1. Earlier file name was nope.mp4.
-> 
-> 2. We have two choices
->    
->    - Type "1" to encrypt.
->    
->    - Type "2" to decrypt.
->    
->    - Other than "1" or "2" it'll throw error message.
+  > 1. Earlier file name was nope.mp4.
+  > 
+  > 2. We have two choices
+  >    
+  >    - Type "1" to encrypt.
+  >    
+  >    - Type "2" to decrypt.
+  >    
+  >    - Other than "1" or "2" it'll throw error message.
 
 > 1. Later after encryption the file name changes to "encrypted.mp4". <B> You can change it according to your need. </B>
 >    
->    ![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-27-10-image.png)
+>    ![Screenshot_20230219_222707](https://user-images.githubusercontent.com/37871733/219963844-a27382d3-16dc-4b54-a5b7-d6c2b335c8d4.png)
 
 7. Playing the encrypted file (encrypted.mp4).
    
-   ![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-30-55-image.png)
+   ![Screenshot_20230219_223050](https://user-images.githubusercontent.com/37871733/219963853-2367d5fa-bec8-4855-a9d3-8633b860b995.png)
+
 
 8. For Decrypting.
    
@@ -119,17 +125,18 @@ As shown above the file is being encrypted.
    > 
    > 3. In file name do mention the name of the encrypted file with extension.
    
-   ![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-36-22-image.png)
+   ![Screenshot_20230219_223618](https://user-images.githubusercontent.com/37871733/219963867-9a57d8f1-2dfd-4252-939a-81d23f1663a0.png)
+
 
 9. After sucessfull decryption, The file must be returned.
    
    > ⚠️⚠️⚠️ Please do remember to save the Key and IV in a secure location. ⚠️⚠️⚠️
    
-   ![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-38-24-image.png)
+   ![Screenshot_20230219_223820](https://user-images.githubusercontent.com/37871733/219963871-76c6aba5-2721-4dc4-99e0-6421956e2991.png)
 
 10. Playing the decrypted file.
     
-    ![](C:\Users\AAYUSH%20KUMAR\AppData\Roaming\marktext\images\2023-02-19-22-41-20-image.png)
+    ![Screenshot_20230219_224050](https://user-images.githubusercontent.com/37871733/219963877-30d74908-6a07-4899-a3b1-8372173979de.png)
 
 <hr>
 
