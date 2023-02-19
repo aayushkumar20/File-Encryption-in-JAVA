@@ -1,10 +1,3 @@
-// WAP to encrypt a video file using AES algorithm 
-// After encryption the file should be decrypted using the same key and IV
-// To decrypt the file use the same key and IV
-// The key and IV must be 32 bytes long
-
-// there'll be an option to encrypt and decrypt the file
-
 import java.io.*;
 import java.util.*;
 import javax.crypto.*;
@@ -18,7 +11,7 @@ class secure
         try
         {
             FileInputStream fis = new FileInputStream(file);
-            FileOutputStream fos = new FileOutputStream("encrypted.mp4");
+            FileOutputStream fos = new FileOutputStream("-------------"); // Change it according to your choice
             byte[] k = key.getBytes();
             byte[] iv = IV.getBytes();
             SecretKeySpec sks = new SecretKeySpec(k, "AES");
@@ -45,7 +38,7 @@ class secure
         try
         {
             FileInputStream fis = new FileInputStream(file);
-            FileOutputStream fos = new FileOutputStream("decrypted.mp4");
+            FileOutputStream fos = new FileOutputStream("------------"); // Change it according to your choice.
             byte[] k = key.getBytes();
             byte[] iv = IV.getBytes();
             SecretKeySpec sks = new SecretKeySpec(k, "AES");
