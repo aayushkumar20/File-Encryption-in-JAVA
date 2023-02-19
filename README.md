@@ -1,18 +1,15 @@
 # Encrypt any file using AES algorithm.
 
-<hr>
 
 ## Using Initialization Vector and Key to both encrypt and decrypt.
 
 ## Platform Independent.
 
-<hr>
 
 > Length of Key - 32 Bit
 
 > Length of Initialization Vector - 16 Bit
 
-<hr>
 
 #### Approach / Working Procedure
 
@@ -35,7 +32,6 @@
    > 
    > 4. ⚠️ Once you forget. <B> It'll never recover </B> ⚠️..
 
-<hr>
 
 #### Requirements.
 
@@ -47,7 +43,6 @@
 > 
 > 4. ⚠️ <B> ALWAYS REMEMBER TO SAVE THE PASSWORD IN A SECURE WALLET OR PROTECTED NOTEBOOK </B> ⚠️.
 
-<hr> 
 
 ## Screenshots.
 
@@ -138,6 +133,5 @@
     
     ![Screenshot_20230219_224050](https://user-images.githubusercontent.com/37871733/219963877-30d74908-6a07-4899-a3b1-8372173979de.png)
 
-<hr>
 
 # Thank you 😀
